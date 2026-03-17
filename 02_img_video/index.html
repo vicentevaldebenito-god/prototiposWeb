@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- Declara el tipo de documento. Indica al navegador que usa HTML5 -->
+<html lang="es">
+<!-- Elemento principal del documento HTML.
+lang="es" indica que el contenido está en español -->
+
+<head> <!-- Sección de configuración del documento-->
+    <meta charset="UTF-8">
+    <!-- Define la codificación de caracteres.
+    UTF-8 permite mostrar correctamente tildes, ñ, simbolos, etc -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Hace que el sitio sea responsive, 
+    adaptándose a diferentes tamaños de pantalla -->
+    <title>Practicando HTML - img y video</title>
+    <!--Título de la página que aparece en el navegador-->
+    <meta name="autor" content="Vicente Valdebenito">
+    <!-- Indica quien creo el sitio web-->
+
+    <link rel="stylesheet" href="static/css/style.css">
+    <!-- Conexión con hoja CSS de estilos -->
+</head>
+
+<body>
+    <header> <!-- Encabezado del documento -->
+        <h1>Sitio Multimedia Personal</h1>
+    </header>
+    <hr> <!-- Crea una linea de división -->
+    <main> <!-- sección principal del documento -->
+        <h2>Mis datos</h2>
+        <p>Nombre: Vicente Valdebenito</br> <!-- br es un salto de linea -->
+        <p>Curso: 3°C</p>
+        <hr>
+        <h2>Galeria multimedia</h2>
+        <p>imagen de ejemplo</p>
+        <img src="static/images/imagen1.png" alt="Primera imagen" width="100">
+        <img src="static/images/imagen2.png" alt="Segunda imagen" width="150">
+        <img src="static/images/imagen3.png" alt="Tercera imagen" width="120">
+        <hr>
+        <h2>Videos</h2>
+        <video width="600" height="400" controls>
+            <source src="static/videos/video1.mp4" type="video/mp4">
+        </video>
+        <video width="600" height="400" controls>
+            <source src="static/videos/video2.mp4" type="video/mp4">
+        </video>
+    </main>
+    <footer>
+        <p style="text-align: center;">Todos los derechos reservados
+        <a href="">- Más información</a> <!-- etiqueta <a> para vinculos -->
+        </p>
+    </footer>
+</body>
+
+</html>
