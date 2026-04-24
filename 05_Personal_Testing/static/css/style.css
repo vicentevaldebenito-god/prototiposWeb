@@ -1,4 +1,3 @@
-/* Simple styling for the random text generator */
 
 :root {
   --blue: #3af;
@@ -51,9 +50,14 @@ button {
 }
 
 button:hover {
-  opacity: 0.8;
+  opacity: 0.5;
+  background: rgb(70, 107, 117);
 }
 
+button:active {
+  opacity: 0.75;
+  background: rgba(58, 186, 255, 0.15);
+}
 .output {
   margin-top: 1.5rem;
   padding: 1.25rem;

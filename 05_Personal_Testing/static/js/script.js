@@ -7,6 +7,13 @@ const texts = [
   "Kill your most recent painting",
   "Cook risotto with sewer water and give it to your neighbour",
   "Sleep for a total of 800hrs a day",
+  "Visit the library and recover the book of Olga",
+  "Find a distortion and cut off 37% of his limbs",
+  "Recover the logs of an ALEPH abnormality from L Corp",
+  "Do insight on spider bud",
+  "Visit the nearest weaver and ask for 12 strand of clothing , the burn them in the ashes of a fallen nest",
+  "Become a messenger of the index and make your own prescripts",
+  "Do not go home until you have finished reading the number of e",
 ];
 
 const btn = document.getElementById("generateBtn");
